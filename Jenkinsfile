@@ -1,11 +1,6 @@
+//scripted stage pipelines are optional.
 node {
-	stage('Build') {
-		echo "Build"
-	}
-	stage('Test') {
-		echo "Test"
-	}
-	stage('Integration test') {
-		echo "Integration test"
-	}
+	echo "Build"
+	echo "Test"
+	echo "Integration Test"
 }
